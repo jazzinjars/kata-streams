@@ -1,7 +1,7 @@
 package com.jazzinjars.katas.streams;
 
-import java.util.*;
-import java.util.stream.Collectors;
+import java.util.List;
+import java.util.Map;
 
 public class Partitioning {
 
@@ -9,18 +9,13 @@ public class Partitioning {
     }
 
     public static Map<Boolean, List<Person>> partitionAdults7(List<Person> people) {
-        Map<Boolean, List<Person>> map = new HashMap<>();
-        map.put(true, new ArrayList<>());
-        map.put(false, new ArrayList<>());
-        for (Person person : people) {
-            map.get(person.getAge() >= 18).add(person);
-        }
-        return map;
+        // TODO: Put here your Magic Code!!
+        return null;
     }
 
     public static Map<Boolean, List<Person>> partitionAdults(List<Person> people) {
-        return people.stream()                                                  // Convert collection to Stream
-                .collect(Collectors.partitioningBy(p -> p.getAge() >= 18));    // Partition stream of people into adults (age => 18) and kids
+        // TODO: Put here your Magic Code!!
+        return null;
     }
 
 }

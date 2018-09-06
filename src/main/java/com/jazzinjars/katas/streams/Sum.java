@@ -5,16 +5,13 @@ import java.util.List;
 public class Sum {
 
     public static int calculate7(List<Integer> numbers) {
-        int total = 0;
-        for (int number : numbers) {
-            total += number;
-        }
-        return total;
+        // TODO: Put here your Magic Code!!
+        return 0;
     }
 
     public static int calculate(List<Integer> people) {
-        return people.stream()                                          // Convert collection to Stream
-                .reduce(0, (total, number) -> total + number);  // Sum elements with 0 as starting value
+        // TODO: Put here your Magic Code!!
+        return 0;
     }
 
 }
