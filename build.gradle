@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'com.jazzinjars'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.3.0'
+    testCompile group: 'org.assertj', name: 'assertj-core', version: '3.11.1'
+}
