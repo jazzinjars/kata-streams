@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import static java.util.stream.Collectors.*;
+import java.util.stream.Collectors;
 
 public class Grouping {
 
@@ -24,8 +23,8 @@ public class Grouping {
     }
 
     public static Map<String, List<Person>> groupByHouse(List<Person> people) {
-        return people.stream()                          // Convert collection to Stream
-                .collect(groupingBy(Person::getHouse)); // Group people by house
+        return people.stream()                                      // Convert collection to Stream
+                .collect(Collectors.groupingBy(Person::getHouse));  // Group people by house
     }
 
 }
