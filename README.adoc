@@ -1,0 +1,15 @@
+= Java Streams Coding DOJO
+
+Coding DOJO to play with Java 8 Streams API.
+
+== Exercises
+
+- *ToUpperCase*: convert elements of a collection to upper case
+- *FilterCollection*: filter collection so that only elements with less than 4 characters are returned
+- *FlatCollection*: flatten multidimensional collection
+- *OldestPerson*: get oldest person from the collection
+- *Sum*: sum all elements of a collection
+- *Kids*: get names of all kids (age under 18)
+- *PeopleStats*: get people statistics: average age, count, max age, min age and sum of all ages
+- *Partitioning*: partition adults and kids
+- *Grouping*: group people by house
