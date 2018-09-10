@@ -13,3 +13,4 @@ Coding DOJO to play with Java 8 Streams API.
 - *PeopleStats*(summaryStatistics): get people statistics: average age, count, max age, min age and sum of all ages
 - *Partitioning*(partitioningBy): partition adults and kids
 - *Grouping*(groupingBy): group people by house
+- *Joining*(joining): join people by names
