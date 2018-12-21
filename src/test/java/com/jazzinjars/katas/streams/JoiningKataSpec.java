@@ -5,10 +5,10 @@ import org.junit.jupiter.api.Test;
 import static com.jazzinjars.katas.streams.Joining.namesToString;
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class JoiningKataSpec extends KataBaseSpec {
+class JoiningKataSpec extends KataBaseSpec {
 
     @Test
-    public void to_string_should_return_people_names_separated_by_comma() {
+    void to_string_should_return_people_names_separated_by_comma() {
         assertThat(namesToString(personList))
                 .isEqualTo("Names: Sansa, Cersei, Catelyn.");
     }

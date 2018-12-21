@@ -6,7 +6,7 @@ import java.util.List;
 
 import static java.util.Arrays.asList;
 
-public class KataBaseSpec {
+class KataBaseSpec {
 
     static List<Person> personList;
     static Person sansa;
@@ -14,7 +14,7 @@ public class KataBaseSpec {
     static Person catelyn;
 
     @BeforeAll
-    public static void initializeResources() {
+    static void initializeResources() {
         sansa = new Person("Sansa", 4, "Stark");
         cersei = new Person("Cersei", 40, "Lannister");
         catelyn = new Person("Catelyn", 42, "Stark");
