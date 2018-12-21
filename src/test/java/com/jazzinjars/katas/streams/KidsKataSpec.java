@@ -16,7 +16,7 @@ public class KidsKataSpec extends KataBaseSpec {
         List<Person> people = new ArrayList<>(personList);
         people.add(arya);
 
-        assertThat(getKidNames(personList))
+        assertThat(getKidNames(people))
                 .contains("Sansa", "Arya")
                 .doesNotContain("Cersei", "Catelyn");
     }
